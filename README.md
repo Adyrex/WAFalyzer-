@@ -24,7 +24,7 @@ git clone https://github.com/adityakumawat2005/WAFalyzer-.git
 
 ### 🔹 Step 2: Navigate to the Project Directory
 ```bash
-cd WAFalyzer
+cd WAFalyzer-
 ```
 
 ---
