@@ -63,6 +63,18 @@ https://example.com
 ```
 ---
 
+
+### 🔄 Step 8: Update WAFalyzer (if already installed)
+If you've already cloned the repository earlier and want to update it to the latest version, run the following commands:
+
+```bash
+cd WAFalyzer
+git pull
+```
+
+---
+
+
 ## 📄 License
 This project is licensed under the MIT License — feel free to use, modify, and distribute it.
 
