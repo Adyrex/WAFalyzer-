@@ -1,53 +1,72 @@
-# 🛡️ WAFalyzer
+# WAFalyzer
 
-**WAFalyzer** is a Python-based tool that helps identify Web Application Firewalls (WAFs) by analyzing HTTP response headers. It gives cool hacker-style output and is beginner-friendly!
-
-![banner](https://i.imgur.com/2o6Z8XN.png)
-
----
-
-## ⚙️ Features
-
-- Detects popular WAFs like Cloudflare, Akamai, AWS WAF, etc.
-- Clean and colorful output
-- Beginner friendly, easy to run
+**WAFalyzer** is a Python-based tool for detecting Web Application Firewalls (WAFs) via HTTP header analysis.  
+Ideal for bug bounty hunters, ethical hackers, and cybersecurity learners.
 
 ---
 
-## 🚀 Installation
+## 🚀 Features
 
-### 🔻 Clone the repo:
+- Detects popular WAFs like Cloudflare, Akamai, Sucuri, and more
+- Analyzes HTTP headers for security signatures
+- Fast, lightweight, and simple CLI interface
+- Colorful output using `colorama` and banner with `pyfiglet`
+
+---
+## ⚙️ Setup Instructions
+
+### 🔹 Step 1: Clone this Repository
 ```bash
 git clone https://github.com/adityakumawat2005/WAFalyzer.git
+```
+
+---
+
+### 🔹 Step 2: Navigate to the Project Directory
+```bash
 cd WAFalyzer
+```
 
-💾 Install dependencies:
+---
 
-# For Kali/Linux users:
-python3 -m venv venv
-source venv/bin/activate
+### 🔹 Step 3: Create a Virtual Environment (Recommended)
+```bash
+python3 -m venv wafalyzer-env
+```
 
+---
+
+### 🔹 Step 4: Activate the Virtual Environment
+```bash
+source wafalyzer-env/bin/activate
+```
+
+---
+
+### 🔹 Step 5: Install Required Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-🧪 Usage
+---
 
+### 🔹 Step 6: Run the Tool
+```bash
 python wafalyzer.py
-Then enter a target URL (with http/https). Example:
+```
+
+---
+
+### 🔹 Step 7: Enter the Target URL (with http/https)
+```bash
 https://example.com
+```
+---
 
+## 📄 License
+This project is licensed under the MIT License — feel free to use, modify, and distribute it.
 
-🧠 How It Works
-It scans for the following headers and values:
+---
 
-Server: Cloudflare, Sucuri, AkamaiGHost, etc.
-
-X-CDN: Incapsula, CloudFront, Fastly, etc.
-
-X-Sucuri-ID, X-Mod-Security, CF-RAY, etc.
-
-👨‍💻 Author
-Made with ❤️ by Aditya Kumawat
-
-
-⚠️ Disclaimer
-This tool is for educational & ethical use only.
+## 👨‍💻 Author
+Made with ❤️ by [Aditya Kumawat](https://github.com/adityakumawat2005)
