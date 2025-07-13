@@ -1,4 +1,4 @@
-# WAFalyzer
+# WAFalyzer-
 
 **WAFalyzer** is a Python-based tool for detecting Web Application Firewalls (WAFs) via HTTP header analysis.  
 Ideal for bug bounty hunters, ethical hackers, and cybersecurity learners.
@@ -68,7 +68,7 @@ https://example.com
 If you've already cloned the repository earlier and want to update it to the latest version, run the following commands:
 
 ```bash
-cd WAFalyzer
+cd WAFalyzer-
 git pull
 ```
 
