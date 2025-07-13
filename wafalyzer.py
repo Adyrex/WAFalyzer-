@@ -23,7 +23,7 @@ def show_banner():
     banner = pyfiglet.figlet_format("WAFalyzer")
     print(Fore.CYAN + banner + Style.RESET_ALL)
     print(Fore.YELLOW + "[+] WAF Detection Tool by Aditya Kumawat" + Style.RESET_ALL)
-    print(Fore.MAGENTA + "    GitHub: https://github.com/adityakumawat2005/WAFalyzer\n" + Style.RESET_ALL)
+    print(Fore.MAGENTA + "    GitHub: https://github.com/adityakumawat2005/WAFalyzer-\n" + Style.RESET_ALL)
 
 # 🔍 Scan Function
 def detect_waf(url):
