@@ -17,7 +17,7 @@ Ideal for bug bounty hunters, ethical hackers, and cybersecurity learners.
 
 ### 🔹 Step 1: Clone this Repository
 ```bash
-git clone https://github.com/adityakumawat2005/WAFalyzer-.git
+git clone https://github.com/Adyrex/WAFalyzer-.git
 ```
 
 ---
