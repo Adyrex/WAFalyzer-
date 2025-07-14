@@ -81,4 +81,4 @@ This project is licensed under the MIT License — feel free to use, modify, and
 ---
 
 ## 👨‍💻 Author
-Made with ❤️ by [Aditya Kumawat](https://github.com/adityakumawat2005)
+Made with ❤️ by [Aditya Kumawat](https://github.com/Adyrex)
